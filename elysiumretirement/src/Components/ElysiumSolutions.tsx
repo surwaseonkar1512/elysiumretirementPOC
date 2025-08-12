@@ -1,5 +1,3 @@
-import React from "react";
-
 const CircleDiagram = () => {
   return (
     <div className="flex justify-center items-center min-h-[500px] relative">

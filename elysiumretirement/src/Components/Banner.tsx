@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroBanner = () => {
   return (
     <section className="bg-[#034702] text-white md:min-h-[90vh] min-h-[60vh] flex items-center justify-center">

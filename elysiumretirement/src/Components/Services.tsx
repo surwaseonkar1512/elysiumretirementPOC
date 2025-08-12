@@ -1,4 +1,3 @@
-import React from "react";
 import { FaRegClock } from "react-icons/fa";
 
 export default function ComingSoon() {

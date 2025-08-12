@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import {
   FaEnvelope,
@@ -11,39 +9,8 @@ import {
   FaTimes,
   FaWhatsapp,
 } from "react-icons/fa";
-import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 
 export default function Contact() {
-  // Static Data
-  const siteSettingData = {
-    email: "info@example.com",
-    phone: "9876543210",
-    address: "123 Wedding Lane, Pune, Maharashtra, India",
-    googleMapAddressLink:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1891.1635259529817!2d76.01865553331811!3d18.559288381896057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5130deac265bd%3A0x1d87cc22421e3b3e!2sAmar%20patil%20photography!5e0!3m2!1sen!2sin!4v1745434573968!5m2!1sen!2sin",
-  };
-
-  const social = [
-    {
-      _id: 1,
-      name: "Facebook",
-      link: "https://facebook.com",
-      icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png",
-    },
-    {
-      _id: 2,
-      name: "Instagram",
-      link: "https://instagram.com",
-      icon: "https://cdn-icons-png.flaticon.com/512/733/733558.png",
-    },
-    {
-      _id: 3,
-      name: "LinkedIn",
-      link: "https://linkedin.com",
-      icon: "https://cdn-icons-png.flaticon.com/512/733/733561.png",
-    },
-  ];
-
   return (
     <div className="w-full mt-10 font-outfit">
       {/* Banner Section */}
